@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Employee.h"
 
 /*
 	Declaration of functions listed below the main since otherwise functions 
@@ -7,7 +8,7 @@
 static void primitivesAndBasics();
 static void arraysAndmultidimensionalArrays();
 static void strings();
-
+static void objects();
 
 int main() {
 
@@ -15,7 +16,9 @@ int main() {
 
 	// arraysAndmultidimensionalArrays();
 
-	strings();
+	// strings();
+
+	objects();
 
 	return 0;
 }
@@ -201,10 +204,12 @@ static void arraysAndmultidimensionalArrays() {
 
 	std::cout << "\n\n =-= Arrays & Multidimensional Arrays =-= \n";
 
+	// Create an array of numbers from 0 - 19
 	int arrayOfNumbers[] = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19};
 
 	std::cout << "\nArray of Numbers from 0-19: " << std::endl;
 
+	// For loop that prints each number in the array regardless of it's size separating with spaces
 	for (int i = 0; i < sizeof(arrayOfNumbers) / sizeof(arrayOfNumbers[0]); i++) 
 	{
 		std::cout << " " << arrayOfNumbers[i];
@@ -212,11 +217,13 @@ static void arraysAndmultidimensionalArrays() {
 
 	std::cout << "\nArray of Numbers from 0-19 IN REVERSE: " << std::endl;
 
+	// For loop that prints each number in the array in reverse regardless of it's size separating with spaces
 	for (int i = sizeof(arrayOfNumbers) / sizeof(arrayOfNumbers[0]) - 1; i >= 0; i--) 
 	{
 		std::cout << " " << arrayOfNumbers[i];
 	}
 
+	// 
 	int multidimensionalArrayOfNumbers[][5] = {
 		{0,1,2,3,4},
 		{5,6,7,8,9},
@@ -258,6 +265,30 @@ static void strings() {
 
 }
 
+/*
+
+	Example of an Employee object, containing a name and another Object of type Job
+	which also has a job name and salary.
+
+	Employee: 
+	  L	 Name (string)
+		 Job  (Object)	
+		  L  name    (string)
+		  L  salary  (int)
+
+*/
+static void objects() {
+
+	// Create Job object 
+	Job salesMan("Sales", 1500);
+
+	// Create Employee object and add the Job object created previously
+	Employee objectTest("John", salesMan);
+
+	// Print info about the object
+	std::cout << objectTest.toString();
+
+}
 
 
 
