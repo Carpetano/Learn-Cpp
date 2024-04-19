@@ -5,14 +5,17 @@
 	below the main method won't be usable without unless declaring like so:
 */
 static void primitivesAndBasics();
-static void arraysAndStrings();
+static void arraysAndmultidimensionalArrays();
+static void strings();
 
 
 int main() {
 
-	primitivesAndBasics();
+	// primitivesAndBasics();
 
-	arraysAndStrings();
+	// arraysAndmultidimensionalArrays();
+
+	strings();
 
 	return 0;
 }
@@ -24,6 +27,8 @@ int main() {
 
 */
 static void primitivesAndBasics() {
+
+	std::cout << "\n =-= Primitive Datatyles and Basic logic Flow =-= \n" << std::endl;
 
 	/*
 	
@@ -187,12 +192,72 @@ static void primitivesAndBasics() {
 
 }
 
+/*
 
-static void arraysAndStrings() {
+	A few examples of printing content of number arrays and multidimensional arrays.
 
-	
+*/
+static void arraysAndmultidimensionalArrays() {
+
+	std::cout << "\n\n =-= Arrays & Multidimensional Arrays =-= \n";
+
+	int arrayOfNumbers[] = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19};
+
+	std::cout << "\nArray of Numbers from 0-19: " << std::endl;
+
+	for (int i = 0; i < sizeof(arrayOfNumbers) / sizeof(arrayOfNumbers[0]); i++) 
+	{
+		std::cout << " " << arrayOfNumbers[i];
+	}
+
+	std::cout << "\nArray of Numbers from 0-19 IN REVERSE: " << std::endl;
+
+	for (int i = sizeof(arrayOfNumbers) / sizeof(arrayOfNumbers[0]) - 1; i >= 0; i--) 
+	{
+		std::cout << " " << arrayOfNumbers[i];
+	}
+
+	int multidimensionalArrayOfNumbers[][5] = {
+		{0,1,2,3,4},
+		{5,6,7,8,9},
+		{10,11,12,13,14},
+		{15,16,17,18,19},
+		{20,21,22,23,24}
+	};
+
+	std::cout << "\nMultidimensional array 0-24 / 5: \n" << std::endl;
+
+	for (int i = 0; i < sizeof(multidimensionalArrayOfNumbers) / sizeof(multidimensionalArrayOfNumbers[0]); i++)
+	{
+		for (int j = 0; j < sizeof(multidimensionalArrayOfNumbers[i]) / sizeof(multidimensionalArrayOfNumbers[i][0]); j++)
+		{
+			std::cout << " " << multidimensionalArrayOfNumbers[i][j];
+		}
+		std::cout << "\n";
+	}
 
 }
+
+
+static void strings() {
+
+	std::cout << "\n\n =-= Strings =-= \n";
+
+	std::string myString = "hello, this is a standard string";
+
+	std::string stringFromCharacterArray = {'S','t','r','i','n','g',' ', 'F','r','o','m',' ', 'c','h','a','r','a','c','t','e','r','s'};
+
+	std::cout << myString << std::endl << stringFromCharacterArray << std::endl;
+
+	std::string part1 = "First half";
+	std::string part2 = "Second Half";
+
+	std::string combined = part1 + " - " + part2;
+
+	std::cout << combined << std::endl;
+
+}
+
 
 
 
