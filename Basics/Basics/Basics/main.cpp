@@ -9,6 +9,7 @@ static void primitivesAndBasics();
 static void arraysAndmultidimensionalArrays();
 static void strings();
 static void objects();
+static void pointers();
 
 int main() {
 
@@ -18,7 +19,9 @@ int main() {
 
 	// strings();
 
-	objects();
+	// objects();
+
+	pointers();
 
 	return 0;
 }
@@ -287,6 +290,40 @@ static void objects() {
 
 	// Print info about the object
 	std::cout << objectTest.toString();
+
+}
+
+/*
+
+	Oh boy, pointers
+
+*/
+static void pointers() {
+
+	// Declare a variable 
+	int myNumber = 137;
+
+	// Declare a pointer veriable ( indicated by the asterisk '*' after the datatype ) 
+	// and copy whatever that originalvariable had by adding the ampersand character 
+	// '&', then variable name where to copy from
+	// in this case it should be 137
+	int* myPointerVariable = &myNumber;
+
+	// Print original variable value and memory address
+	std::cout << "Original variable: " << myNumber << " - Memory address: " << &myNumber << std::endl;
+
+	// Print the copy variable which has the address of the original variable
+	std::cout << "Memory address of original variable stored in a different one: " << myPointerVariable << std::endl;
+
+	// Print the value of the variable that the myPointerVariable is pointing to since it has an asterisk
+	std::cout << "Now printing the value because I put an asterisk: " << *myPointerVariable << std::endl;
+
+	// Modifying the value of address that is pointing to since there is an asterisk
+	*myPointerVariable += 1;
+	
+	std::cout << "I added 1 to the original variable by using *myPointerVariable and now the value is: " << myNumber << std::endl;
+
+	std::cout << std::endl << "=-= In short:\n & -> Means memory address\n * -> Means value in the memory address\n" << "\n &myPointerVariable = " << &myPointerVariable << "\n *myPointerVariable = " << *myPointerVariable << std::endl;
 
 }
 
