@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nocutua\\git\\Learn-Cpp\\AssaultCube\\testACaimbot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8C4368-CE58-41AF-ABF5-239C3B2CD2CA}|testACaimbot\\testACaimbot.vcxproj|C:\\Users\\nocutua\\git\\Learn-Cpp\\AssaultCube\\testACaimbot\\testACaimbot\\testACaimbot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BE8C4368-CE58-41AF-ABF5-239C3B2CD2CA}|testACaimbot\\testACaimbot.vcxproj|solutionrelative:testACaimbot\\testACaimbot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "testACaimbot.cpp",
+              "DocumentMoniker": "C:\\Users\\nocutua\\git\\Learn-Cpp\\AssaultCube\\testACaimbot\\testACaimbot\\testACaimbot.cpp",
+              "RelativeDocumentMoniker": "testACaimbot\\testACaimbot.cpp",
+              "ToolTip": "C:\\Users\\nocutua\\git\\Learn-Cpp\\AssaultCube\\testACaimbot\\testACaimbot\\testACaimbot.cpp",
+              "RelativeToolTip": "testACaimbot\\testACaimbot.cpp",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAAAHYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-22T18:37:03.668Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

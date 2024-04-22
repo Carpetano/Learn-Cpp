@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{26649EEF-B7C4-4609-A7A5-FE83430447B8}|Basics\\Basics.vcxproj|C:\\Users\\nocutua\\git\\Learn-Cpp\\Basics\\Basics\\Basics\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{26649EEF-B7C4-4609-A7A5-FE83430447B8}|Basics\\Basics.vcxproj|solutionrelative:Basics\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26649EEF-B7C4-4609-A7A5-FE83430447B8}|Basics\\Basics.vcxproj|C:\\Users\\nocutua\\git\\Learn-Cpp\\Basics\\Basics\\Basics\\Job.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{26649EEF-B7C4-4609-A7A5-FE83430447B8}|Basics\\Basics.vcxproj|solutionrelative:Basics\\Job.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26649EEF-B7C4-4609-A7A5-FE83430447B8}|Basics\\Basics.vcxproj|C:\\Users\\nocutua\\git\\Learn-Cpp\\Basics\\Basics\\Basics\\Employee.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{26649EEF-B7C4-4609-A7A5-FE83430447B8}|Basics\\Basics.vcxproj|solutionrelative:Basics\\Employee.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,35 +24,10 @@
               "RelativeDocumentMoniker": "Basics\\main.cpp",
               "ToolTip": "C:\\Users\\nocutua\\git\\Learn-Cpp\\Basics\\Basics\\Basics\\main.cpp",
               "RelativeToolTip": "Basics\\main.cpp",
-              "ViewState": "AQIAAPkAAAAAAAAAAAAAAEkBAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-18T21:48:59.574Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-04-22T23:23:01.469Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Job.h",
-              "DocumentMoniker": "C:\\Users\\nocutua\\git\\Learn-Cpp\\Basics\\Basics\\Basics\\Job.h",
-              "RelativeDocumentMoniker": "Basics\\Job.h",
-              "ToolTip": "C:\\Users\\nocutua\\git\\Learn-Cpp\\Basics\\Basics\\Basics\\Job.h",
-              "RelativeToolTip": "Basics\\Job.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-19T02:22:52.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Employee.h",
-              "DocumentMoniker": "C:\\Users\\nocutua\\git\\Learn-Cpp\\Basics\\Basics\\Basics\\Employee.h",
-              "RelativeDocumentMoniker": "Basics\\Employee.h",
-              "ToolTip": "C:\\Users\\nocutua\\git\\Learn-Cpp\\Basics\\Basics\\Basics\\Employee.h",
-              "RelativeToolTip": "Basics\\Employee.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-19T02:19:12.897Z"
             }
           ]
         }

@@ -1,0 +1,6 @@
+﻿  testACaimbot.cpp
+C:\Users\nocutua\git\Learn-Cpp\AssaultCube\testACaimbot\testACaimbot\testACaimbot.cpp(45,12): warning C4312: 'type cast': conversion from 'DWORD' to 'Player *' of greater size
+C:\Users\nocutua\git\Learn-Cpp\AssaultCube\testACaimbot\testACaimbot\testACaimbot.cpp(58,26): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\nocutua\git\Learn-Cpp\AssaultCube\testACaimbot\testACaimbot\testACaimbot.cpp(59,20): warning C4312: 'type cast': conversion from 'DWORD' to 'Player *' of greater size
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\nocutua\git\Learn-Cpp\AssaultCube\testACaimbot\x64\Debug\testACaimbot.exe : fatal error LNK1120: 1 unresolved externals

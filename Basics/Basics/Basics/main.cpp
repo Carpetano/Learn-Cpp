@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Employee.h"
+#include <Windows.h>
 
 /*
 	Declaration of functions listed below the main since otherwise functions 
@@ -13,13 +14,13 @@ static void pointers();
 
 int main() {
 
-	// primitivesAndBasics();
+	primitivesAndBasics();
 
-	// arraysAndmultidimensionalArrays();
+	arraysAndmultidimensionalArrays();
 
-	// strings();
+	strings();
 
-	// objects();
+	objects();
 
 	pointers();
 
@@ -50,6 +51,15 @@ static void primitivesAndBasics() {
 	double myDouble = 12312.3123123;
 
 	/*
+		Must include <windows.h> 
+		DWORD = unsigned 32-bit integer
+			(That means it's an int that can go from 0 - 2147483647)
+			unsigned = 1st bit doesn't represent wether it's positive or negative, 
+			so it always does positive
+	*/
+	DWORD myDWORD = 54321;
+
+	/*
 		
 		Printing through console in C++ can be done using std from the standard C++ library.
 
@@ -70,6 +80,8 @@ static void primitivesAndBasics() {
 	std::cout << "myLong value: " << myLong << std::endl;
 	std::cout << "myFloat value: " << myFloat << std::endl;
 	std::cout << "myDouble value: " << myDouble << std::endl;
+
+	std::cout << "DWORD value: " << myDWORD << std::endl;
 
 	/*
 		Storing user input using standard C++ library.
